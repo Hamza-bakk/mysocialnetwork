@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar.css (ou ajoutez ces styles dans votre fichier CSS principal) */
+
+nav {
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+  color: #fff; /* Couleur du texte */
+  padding: 10px; /* Espacement interne de la barre de navigation */
+}
+
+ul {
+  list-style: none; /* Supprime les puces de la liste */
+  padding: 0;
+  display: flex; /* Affichage en ligne pour les éléments de la liste */
+  justify-content: flex-end; /* Alignement à droite */
+}
+
+li {
+  margin-right: 20px; /* Marge à droite entre les éléments de la liste */
+}
+
+a {
+  text-decoration: none; /* Supprime la soulignement par défaut des liens */
+  color: #fff; /* Couleur du texte des liens */
+  font-weight: bold; /* Texte en gras */
+  transition: color 0.3s; /* Transition de couleur lors du survol */
+
+  /* Styles de survol */
+  &:hover {
+    color: #ff5733; /* Couleur différente lors du survol */
+  }
+}
